@@ -22,7 +22,6 @@ import MainProfile from '/images/bandcover.jpeg';
 
   {/* Profile Picture */}
   <div className="profile-picture-container">
-    {/* <img className="profile-pic" src="pictures/tom-pic.jpg" alt="A profile picture of Tom, the creator of MySpace." /> */}
     <img class="profile-pic" src={MainProfile} alt="SadBod" />
     <p className="personal-msg"><b>":-)"</b></p>
 
