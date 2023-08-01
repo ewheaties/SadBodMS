@@ -1,3 +1,8 @@
+.events {
+    background-color: #cccccc;
+    margin-top: -1%;
+}
+
 .events h1
 {
     display: flex;
@@ -6,7 +11,7 @@
     font-family: 'logofont';
     color: #ffffff;
     font-family: 'logofont';
-    font-size: 750%;
+    font-size: 600%;
     margin-top: 1%;
     letter-spacing: 12px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 

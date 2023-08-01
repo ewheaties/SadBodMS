@@ -1,32 +1,27 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'logofont';
-} 
-
-.contact-header
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'logofont';
-    color: #ffffff;
-    font-family: 'logofont';
-    font-size: 750%;
-    margin-top: 1%;
-    letter-spacing: 12px;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
-    font-weight: 100;
+    background-color: #cccccc;
+    margin-top: -1%;
 }
 
-.contact h1 {   
-    margin: 1%;
-    margin-top: 2%; 
-    margin-bottom: 2%;
-    font-size: 400%;
-    letter-spacing: 4px;
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'logofont';
+    font-size: 600%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    letter-spacing: 12px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
     font-weight: 100;
 }
 
@@ -34,5 +29,6 @@
     font-size: 350%;
     letter-spacing: 4px;
     font-weight: 100;
-    margin-top: 0;   
+    margin-top: 1%;  
+    margin-bottom: 1%; 
 }

@@ -19,9 +19,7 @@ import CameronBio from './friends/CameronBio';
         <JamesBio />
         <JoeBio />
         <JeremyBio />
-        <CameronBio />
-      
-        {/*** Page Ends ***/}  
+        <CameronBio />     
       </div>
     );
   }
