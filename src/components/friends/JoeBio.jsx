@@ -36,9 +36,9 @@ import Joe from '/images/joe.jpeg';
             <p className="pics-videos">View My: <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
           </div>
 
-          {/* MySpace URL */}
-          <section className="myspace-url-box">
-            <h3><b>MySpace URL:</b></h3>
+          {/* BandSpace URL */}
+          <section className="bandspace-url-box">
+            <h3><b>BandSpace URL:</b></h3>
             <p>http://www.sadbod/joegrover.com</p>
           </section>
 

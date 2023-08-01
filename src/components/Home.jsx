@@ -57,9 +57,9 @@ import MainProfile from '/images/bandcover.jpeg';
     </figure>
   </section>
 
-  {/* MySpace URL */}
-  <section className="myspace-url-box">
-    <h3><b>MySpace URL:</b></h3>
+  {/* BandSpace URL */}
+  <section className="bandspace-url-box">
+    <h3><b>BandSpace URL:</b></h3>
     <p>http://www.sadbod.com</p>
   </section>
 
@@ -133,10 +133,10 @@ import MainProfile from '/images/bandcover.jpeg';
 
   <section className="blog">
     {/* <p><b>SadBod's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
-    <p>MySpace Concert & Parties -Georgia, Orlando, Miami! (<a href="#">view more</a>) </p>
-    <p>In Stores Today - MySpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
-    <p>MySpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
-    <p>October 29th - MySpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
+    <p>BandSpace Concert & Parties -Georgia, Orlando, Miami! (<a href="#">view more</a>) </p>
+    <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
+    <p>BandSpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
+    <p>October 29th - BandSpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
     <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p>
     <p>[<a href="#">View All Blog Entries</a>]</p> */}
   </section>
@@ -197,7 +197,7 @@ import MainProfile from '/images/bandcover.jpeg';
 
 {/*           <section className="testimonial">
     <h2>Testimonial</h2>
-    <p>"SadBod is amazing. My long lost friend <a href="#">Scott</a> found me through MySpace.</p>
+    <p>"SadBod is amazing. My long lost friend <a href="#">Scott</a> found me through BandSpace.</p>
     <p><b>- Elisa</b></p>
   </section> */}
 </main>

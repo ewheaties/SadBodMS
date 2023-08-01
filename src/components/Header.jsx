@@ -28,8 +28,8 @@ import Smiley from '/images/smiley.png';
         </label>
 
         <label>
-          MySpace
-          <input type="radio" name="search-type" value="myspace" />
+          BandSpace
+          <input type="radio" name="search-type" value="bandspace" />
         </label>
 
         <label>

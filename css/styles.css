@@ -239,27 +239,27 @@ html {
   
   /*
   ========================================
-  MySpace URL
+  BandSpace URL
   ========================================
   */
-  .myspace-url-box {
+  .bandspace-url-box {
     border: 1px solid #000000;
     /* height: 26px; */
     margin-bottom: 24px;
   }
   
-  .myspace-url-box h3,
-  .myspace-url-box p {
+  .bandspace-url-box h3,
+  .bandspace-url-box p {
     margin: 0;
     padding: 0;
   }
   
-  .myspace-url-box h3 {
+  .bandspace-url-box h3 {
     font-size: 8pt;
     padding-left: 2px;
   }
   
-  .myspace-url-box p {
+  .bandspace-url-box p {
     padding-left: 6px;
     ;
   }
