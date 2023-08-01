@@ -154,7 +154,7 @@ import MainProfile from '/images/bandcover.jpeg';
     {/* <span className="info">Before asking me a question, please check the <a href="#">FAQ</a> to see if your question has already been answered.</span>*/}
 
     <h3>Who I'd like to meet:</h3>
-    <p> Hailey </p>
+    <p> You at our next show ;) </p>
   </section>
 
   <section className="comments">

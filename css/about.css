@@ -1,4 +1,9 @@
-.about h1
+.about {
+    background-color: #cccccc;
+    margin-top: -1%;
+}
+
+.about-title
 {
     display: flex;
     justify-content: center;
@@ -6,9 +11,47 @@
     font-family: 'logofont';
     color: #ffffff;
     font-family: 'logofont';
-    font-size: 750%;
+    font-size: 600%;
     margin-top: 1%;
+    margin-bottom: 1%;
     letter-spacing: 12px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
     font-weight: 100;
 }
+
+.about-pic-title {
+    font-family: 'logofont';
+    margin: 0px;
+    font-size: 500%;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
+  .about-friend-picture-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px; 
+    margin-bottom: 12px;
+  }
+  
+  .about-friend-pic {
+    width: 50%;
+    height: auto; 
+  }
+  
+  .about-friend-picture-container {
+    list-style: none; 
+    padding: 1%;
+    margin: 5%;
+  }
+  
+  .about-friend-picture-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-friend-picture-container h3 {
+    margin: 5px 0;
+  }

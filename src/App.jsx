@@ -28,7 +28,7 @@ function App() {
           <Route path="/merch" element={<Merch />} />
           <Route path="/events" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+      </Routes>
 
       
     </div>
