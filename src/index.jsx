@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-/* import '../css/styles.css'; */
 import App from './App';
 
 // Use createRoot instead of ReactDOM.render

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-/* import { Link } from 'react-router-dom';
-import DaggerLeft from '/images/dagger1.png';
+
+/* import DaggerLeft from '/images/dagger1.png';
 import DaggerRight from '/images/dagger2.png';
-import Smiley from '/images/smiley.png'; 
- 
-import '/css/header.css';
 */
+import '/css/header.css'; 
+
 import Smiley from '/images/smiley.png'; 
 
   function Header() {
