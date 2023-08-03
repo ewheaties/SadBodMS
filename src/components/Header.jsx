@@ -58,6 +58,9 @@ import Smiley from '/images/smiley.png';
                 <Link to="/">Home</Link>
               </li>
               <li>
+                <Link to="/Media">Media</Link>
+              </li>
+              <li>
                 <Link to="/About">About</Link>
               </li>
               <li>

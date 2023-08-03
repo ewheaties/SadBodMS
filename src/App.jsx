@@ -7,6 +7,7 @@ import '../css/normalize.css';
 
 import Header from './components/Header';
 import Home from './components/Home'; 
+import Media from './components/Media';
 import About from './components/About'; 
 import Merch from './components/Merch';
 import Events from './components/Events';
@@ -24,6 +25,7 @@ function App() {
       
       <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/media" element={<Media />} />
           <Route path="/about" element={<About />} />
           <Route path="/merch" element={<Merch />} />
           <Route path="/events" element={<Events />} />
