@@ -19,7 +19,7 @@ import James from '/images/james.jpeg';
           {/* Profile Picture */}
           <div className="profile-picture-container">
             <img class="profile-pic" src={James} alt="SadBod" />
-            <p className="personal-msg"><b>":-)"</b></p>
+           {/*  <p className="personal-msg"><b>":-)"</b></p> */}
 
             <ul className="gender-age">
               <li>Lead Guitar</li>

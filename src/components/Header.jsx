@@ -46,7 +46,9 @@ import Smiley from '/images/smiley.png';
     </nav>
 
     <nav class="smiley-nav">
-      <img class="smiley-pic" src={Smiley} alt="SadBod" />
+      <img class="smiley-pic-left" src={Smiley} alt="SadBod" />
+      <h1 class="title-nav">SadBod</h1>
+      <img class="smiley-pic-right" src={Smiley} alt="SadBod" />
     </nav>
 
     <nav className="navbar">

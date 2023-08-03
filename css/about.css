@@ -55,3 +55,17 @@
   .about-friend-picture-container h3 {
     margin: 5px 0;
   }
+
+  .bandspace-url-box {
+    width: 100%;
+    font-size: 80%;
+  }
+
+  .gender-age li:first-child {
+    margin-top: 26px;
+    font-size: 100%;
+}
+
+  .gender-age li { 
+    font-size: 80%;
+  }

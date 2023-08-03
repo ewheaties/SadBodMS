@@ -58,7 +58,7 @@ import MainProfile from '/images/bandcover.jpeg';
   </section>
 
   {/* BandSpace URL */}
-  <section className="bandspace-url-box">
+  <section className="bandspace-url-box-main">
     <h3><b>BandSpace URL:</b></h3>
     <p>http://www.sadbod.com</p>
   </section>
@@ -148,7 +148,8 @@ import MainProfile from '/images/bandcover.jpeg';
 
     <h3>About me:</h3>
     <p>What brings us together is a passion for emo and pop punk music. We play all the favorites, from Metro Station to Blink-182, we got it all and jam all over the Treasure Coast! 
-        <strong> come get emo with us some time! </strong>
+        <br />
+        <strong> Come get emo with us some time! </strong>
     </p>
     {/* <span className="info">Before asking me a question, please check the <a href="#">FAQ</a> to see if your question has already been answered.</span>*/}
 

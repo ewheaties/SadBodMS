@@ -19,7 +19,7 @@ import Alex from '/images/alex.jpeg';
           {/* Profile Picture */}
           <div className="profile-picture-container">
             <img class="profile-pic" src={Alex} alt="SadBod" />
-            <p className="personal-msg"><b>"you ain't lyin brother"</b></p>
+            {/* <p className="personal-msg"><b>"you ain't lyin brother"</b></p> */}
 
             <ul className="gender-age">
               <li>Lead Singer</li>
