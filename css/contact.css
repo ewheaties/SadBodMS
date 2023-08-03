@@ -2,6 +2,7 @@
     font-family: 'logofont';
     background-color: #fefefe;
     margin-top: -1%;
+    min-height: 100vh;
 }
 
 .contact-container {

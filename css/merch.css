@@ -1,6 +1,7 @@
 .merch {
     background-color: #fefefe;
     margin-top: -1%;
+    min-height: 100vh;
 }
 
 .merch h1

@@ -73,7 +73,8 @@ html {
   }
   
   p {
-    line-height: 1.3;
+    line-height: 2;
+    font-size: 9pt;
   }
   
   /*
@@ -83,11 +84,25 @@ html {
   */
   .master-container {
     /* margin: auto; */
-    margin-right: 25%;
+/*     margin-right: 25%;
     margin-left: 25%;
-    width: 800px;
+    width: 800px; */
     /* background-color: white; */
   }
+
+  @media screen and (min-width: 1200px) {
+    .master-container {
+      margin-right: 20%;
+      margin-left: 20%;
+    }
+  } 
+
+  @media screen and (min-width: 1600px) {
+    .master-container {
+      margin-right: 25%;
+      margin-left: 25%;
+    }
+  } 
   
   /*
   ========================================
@@ -96,7 +111,7 @@ html {
   */
   .page-content-container {
     display: grid;
-    grid-template-columns: 325px 453px;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 20px;
     grid-template-areas: "sidebar main";
     /* background-color: #f6e9ac;  */
@@ -112,8 +127,16 @@ html {
   
   .profile-sidebar {
     grid-area: sidebar;
-    margin-left: 27px;
-    width: 300px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+   margin-left: 5%; 
+/*     width: 300px;  */
+  }
+
+  main {
+    margin-right: 5%;
   }
   
   h1 {
@@ -253,6 +276,7 @@ html {
   .bandspace-url-box {
     border: 1px solid #000000;
     /* height: 26px; */
+    width: 300px;
     margin-bottom: 24px;
   }
   
