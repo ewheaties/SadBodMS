@@ -19,6 +19,13 @@ Fonts
     font-weight: 400; /* Choose the appropriate font-weight (e.g., 400, 700, etc.) */
     src: url('../assets/fonts/punkboy_tbs.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: '8-bit'; /* You can choose any name you want for the font-family */
+    font-style: normal;
+    font-weight: 400; /* Choose the appropriate font-weight (e.g., 400, 700, etc.) */
+    src: url('../assets/fonts/PressStart2P-vaV7.ttf') format('truetype');
+  }
 /*
 ========================================
 Global
@@ -93,7 +100,8 @@ html {
     grid-column-gap: 20px;
     grid-template-areas: "sidebar main";
     /* background-color: #f6e9ac;  */
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
+    background-color: #fefefe;
   }
   
   /*
@@ -216,7 +224,7 @@ html {
   ========================================
   */
   .contact-box {
-    border: 2px solid #000000;
+    border: 2px solid #64a4f2;
     height: 149px;
     width: 300px;
     margin-bottom: 24px;
@@ -224,7 +232,7 @@ html {
   
   .contact-box h2 {
     color: white;
-    background-color: #000000;
+    background-color: #64a4f2;
     height: 17px;
     padding-left: 10px;
   }
@@ -270,14 +278,14 @@ html {
   ========================================
   */
   .sidebar-table {
-    border: 2px solid #000000;
+    border: 2px solid #64a4f2;
     display: table;
     border-collapse: separate;
     border-spacing: 3px;
   }
   
   .sidebar-table-h2 {
-    background-color: #000000;
+    background-color: #64a4f2;
     color: white;
     text-align: left;
     height: 17px;
@@ -289,7 +297,7 @@ html {
     vertical-align: top;
     text-align: left;
     width: 107px;
-    background-color: #ffd000;
+    background-color: #64a4f2;
     color: #000000;
     padding: 3px;
     font-weight: bold;
@@ -298,7 +306,7 @@ html {
   
   .sidebar-table-data {
     width: 184px;
-    background-color: #fae97c;
+    background-color: #dee9fd;
     padding: 3px;
   }
   
@@ -372,7 +380,7 @@ html {
     margin: auto;
     height: 75px;
     /* border: 2px solid black; */
-    border: 2px solid #ffd000; 
+    border: 2px solid #000000; 
     margin-top: 13px;
   }
   
@@ -404,7 +412,7 @@ html {
   ========================================
   */
   .main-section-header {
-    background-color: #ffd000;
+    background-color: #64a4f2;
     padding-top: 3px;
     padding-bottom: 3px;
     margin-bottom: 8px;
