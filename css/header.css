@@ -125,6 +125,26 @@
     background-color: rgb(102, 153, 204);
     min-height: 26px;
   }
+
+  @media screen and (max-width: 1200px) {
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+    }
+
+    .navbar ul{
+      height: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .navbar li{
+      font-size: 200%;     
+    }
+  } 
   
   .navbar ul {
     display: flex;

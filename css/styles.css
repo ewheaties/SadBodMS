@@ -83,14 +83,14 @@ html {
   Master Container
   ========================================
   */
-  .master-container {
-    /* margin: auto; */
-/*     margin-right: 25%;
+  /* .master-container {
+    margin: auto; 
+    margin-right: 25%;
     margin-left: 25%;
-    width: 800px; */
-    /* background-color: white; */
+    width: 800px; 
+    background-color: white; 
   }
-
+ */
   @media screen and (min-width: 1200px) {
     .master-container {
       margin-right: 20%;
@@ -229,27 +229,39 @@ html {
   
   .gender-age {
     grid-area: 1/2;
+    font-size: 115%;
   }
   
   .gender-age li:first-child {
     margin-top: 28px;
   }
-  
+
   .last-login {
     grid-area: 1/2;
     align-self: end;
   }
   
-  .last-login li:last-child {
+ /*  .last-login li:last-child {
     margin-bottom: 15px;
-  }
+  } */
   
   .pics-videos {
-    grid-area: 1/1;
-    justify-self: center;
+    /* grid-area: 1/1; */
+    /* justify-self: center; */
     align-self: end;
+    display: flex;
+    list-style-type: none;
   }
-  
+
+  .pics-videos li:before {
+    content: none;
+  }
+
+  .pics-videos li { 
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+ 
   /*
   ========================================
   Contact Box
@@ -373,6 +385,10 @@ html {
     background-color: #dee9fd;
     padding: 3px;
     /* font-family: '8-bit'; */
+  }
+
+  .sidebar-table tbody {
+    font-size: 9pt; 
   }
   
   /*

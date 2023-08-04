@@ -1,6 +1,8 @@
 import React from 'react';
 /* import '/css/home.css';
  */
+import { Link } from 'react-router-dom';
+
 import Alex from '/images/alex.jpeg';
 import James from '/images/james.jpeg';
 import Joe from '/images/joe.jpeg';
@@ -38,7 +40,12 @@ import MainProfile from '/images/bandcover.jpeg';
       <li>4/22/2006</li>
     </ul>
 
-    <p className="pics-videos">View My: <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a></p>
+    <p className="pics-videos">View My: 
+              <li>
+                <Link to="/Media">Pics</Link>
+              </li><li>
+                <Link to="/Media">Videos</Link>
+              </li>{/* <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a> */}</p>
   </div>
 
   {/* Contact Box */}
