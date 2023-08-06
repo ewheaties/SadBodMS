@@ -14,10 +14,10 @@ import MainProfile from '/images/bandcover.jpeg';
     return (
       <div class="home">
       <div className="page-content-container">
-
+<div class="about-container">
 {/* Profile Sidebar Begins */}
 <aside className="profile-sidebar">
-
+<div class="about-column-left">
   <header>
     <h1 class="page-title">SadBod</h1>
   </header>
@@ -47,7 +47,6 @@ import MainProfile from '/images/bandcover.jpeg';
                 <Link to="/Media">Videos</Link>
               </li>{/* <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a> */}</p>
   </div>
-
   {/* Contact Box */}
   <section className="contact-box">
     <h2>Contacting SadBod</h2>
@@ -63,13 +62,14 @@ import MainProfile from '/images/bandcover.jpeg';
       <img src="pictures/rankUserIcon.gif" alt="Rank User" />
     </figure>
   </section>
-
+  </div>
+  <div class="about-column-right">
   {/* BandSpace URL */}
   <section className="bandspace-url-box-main">
     <h3><b>BandSpace URL:</b></h3>
     <p>http://www.sadbod.com</p>
   </section>
-
+   
   {/* Interests Section */}
   <section className="interests">
     <table className="sidebar-table">
@@ -82,7 +82,7 @@ import MainProfile from '/images/bandcover.jpeg';
         <tr>
           <th className="sidebar-table-header" scope="row">Music</th>
           <td className="sidebar-table-data">
-            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball, The Front Bottoms, Hawthorne Lights, The Spill Canvas </p>
+            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball{/* , The Front Bottoms, Hawthorne Lights, The Spill Canvas */} </p>
             {/* <p><b>Solo Artists</b>: </p>
             <p><b>Singers</b>: </p>
             <p><b>Albums</b>: </p>
@@ -124,9 +124,9 @@ import MainProfile from '/images/bandcover.jpeg';
       </tbody>
     </table>
   </section>
-
-  
+  </div>
 </aside>
+</div>
 {/* Profile Side Bar Ends */}
 
 {/* Main Section */}

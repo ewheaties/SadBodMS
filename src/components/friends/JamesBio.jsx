@@ -8,10 +8,10 @@ import James from '/images/james.jpeg';
     return (
       <div class="james-foerst"> 
       {/*** Alex Hall ***/}
-      <div className="page-content-container">
+      <div className="about-page-content-container">
 
         {/* Profile Sidebar Begins */}
-        <aside className="profile-sidebar">
+        <aside className="about-profile-sidebar">
 
           <header>
             <h1 class="about-pic-title">James Foerst</h1>
