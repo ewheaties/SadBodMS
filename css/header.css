@@ -135,14 +135,14 @@
     }
 
     .navbar ul{
-      height: 48px;
+      height: 36px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .navbar li{
-      font-size: 200%;     
+      font-size: 150%;     
     }
   } 
   
