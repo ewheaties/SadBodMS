@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios'; // Import axios library for making HTTP requests
 import '/css/events.css';
 
 const EmailSignUpForm = () => {
@@ -10,13 +11,17 @@ const EmailSignUpForm = () => {
     setEmail(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Add your logic here to submit the email to your backend or email service
-    console.log('Email submitted:', email);
-    // You can also clear the input field after submission if needed
-    setEmail('');
-    setIsSubmitted(true);
+    try {
+      // Make a POST request to the C# API endpoint
+      await axios.post('http://localhost:5000/api/subscribe', { email });
+      console.log('Email submitted:', email);
+      setEmail('');
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Error submitting email:', error);
+    }
   };
 
 
