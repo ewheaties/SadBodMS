@@ -18,7 +18,7 @@ import Footer from './Footer';
 <div class="about-container">
 {/* Profile Sidebar Begins */}
 <aside className="profile-sidebar">
-<div class="about-column-left">
+{/* <div class="about-column-left"> */}
   <header>
     <h1 class="page-title">SadBod</h1>
   </header>
@@ -26,28 +26,30 @@ import Footer from './Footer';
   {/* Profile Picture */}
   <div className="profile-picture-container">
     <img class="profile-pic" src={MainProfile} alt="SadBod" />
-    <p className="personal-msg"><b>":-)"</b></p>
-
+    </div>
+{/*     <p className="personal-msg"><b>":-)"</b></p> */}
+<div class="profile-details-container">
     <ul className="gender-age">
       <li>Emo Tribute Band</li>
-      <li>est. 2022</li>
+      {/* <li>est. 2022</li> */}
       <li>Vero Beach,</li>
       <li>FLORIDA</li>
-      <li>United States</li>
+      {/* <li>United States</li> */}
     </ul>
 
     <ul className="last-login">
       <li>Last Login:</li>
       <li>4/22/2006</li>
     </ul>
-
-    <p className="pics-videos">View My: 
+    </div>
+    
+  
+  <p className="pics-videos">View My: 
               <li>
                 <Link to="/Media">Pics</Link>
               </li><li>
                 <Link to="/Media">Videos</Link>
               </li>{/* <a href="#"><b>Pics</b></a> | <a href="#"><b>Videos</b></a> */}</p>
-  </div>
   {/* Contact Box */}
   <section className="contact-box">
     <h2>Contacting SadBod</h2>
@@ -63,8 +65,8 @@ import Footer from './Footer';
       {/* <img src="pictures/rankUserIcon.gif" alt="Rank User" /> */}
     </figure>
   </section>
-  </div>
-  <div class="about-column-right">
+{/*   </div> */}
+{/*   <div class="about-column-right"> */}
   {/* BandSpace URL */}
   <section className="bandspace-url-box-main">
     <h3><b>BandSpace URL:</b></h3>
@@ -83,7 +85,7 @@ import Footer from './Footer';
         <tr>
           <th className="sidebar-table-header" scope="row">Music</th>
           <td className="sidebar-table-data">
-            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball{/* , The Front Bottoms, Hawthorne Lights, The Spill Canvas */} </p>
+            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, {/* American Hi-Fi, */} 3OH!3, Modern Baseball{/* , The Front Bottoms, Hawthorne Lights, The Spill Canvas */} </p>
             {/* <p><b>Solo Artists</b>: </p>
             <p><b>Singers</b>: </p>
             <p><b>Albums</b>: </p>
@@ -125,7 +127,7 @@ import Footer from './Footer';
       </tbody>
     </table>
   </section>
-  </div>
+{/*   </div> */}
 </aside>
 </div>
 {/* Profile Side Bar Ends */}

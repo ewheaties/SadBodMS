@@ -123,10 +123,10 @@
     align-items: center;
     margin-top: auto;
     background-color: rgb(102, 153, 204);
-    min-height: 26px;
+    min-height: 32px;
   }
 
-  @media screen and (max-width: 1200px) {
+  /* @media screen and (max-width: 1200px) {
     .navbar {
       display: flex;
       justify-content: center;
@@ -144,7 +144,7 @@
     .navbar li{
       font-size: 150%;     
     }
-  } 
+  }  */
   
   .navbar ul {
     display: flex;

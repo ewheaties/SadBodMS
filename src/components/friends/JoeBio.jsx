@@ -22,17 +22,20 @@ import Joe from '/images/joe.jpeg';
             <img class="profile-pic" src={Joe} alt="SadBod" />
             {/* <p className="personal-msg"><b>":-)"</b></p> */}
 
-            <ul className="gender-age">
-              <li>Rythm Guitar</li>
-              <li>Vero Beach,</li>
-              <li>FLORIDA</li>
-              <li>United States</li>
-            </ul>
+            <div class="profile-details-container">
+    <ul className="gender-age">
+      <li>Rythm Guitar</li>
+      {/* <li>est. 2022</li> */}
+      <li>Vero Beach,</li>
+      <li>FLORIDA</li>
+      {/* <li>United States</li> */}
+    </ul>
 
-            <ul className="last-login">
-              <li>Last Login:</li>
-              <li>4/22/2006</li>
-            </ul>
+    <ul className="last-login">
+      <li>Last Login:</li>
+      <li>4/22/2006</li>
+    </ul>
+    </div>
 
             <p className="pics-videos">View My: 
               <li>

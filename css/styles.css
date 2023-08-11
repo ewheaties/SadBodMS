@@ -44,7 +44,7 @@ html {
     /* background-color: #e5e5e5; */
     /* background-color: #615e5e; */
     background-color: #e5e5e5;
-    font-size: 8pt;
+/*     font-size: 8pt; */
     margin: 0;
   }
   
@@ -73,8 +73,8 @@ html {
   }
   
   p {
-    line-height: 2;
-    font-size: 9pt;
+    line-height: 2.5;
+    font-size: 12pt; 
     /* font-family: '8-bit'; */
   }
   
@@ -89,9 +89,10 @@ html {
     margin-left: 25%;
     width: 800px; 
     background-color: white;  */
+
   }
  
-  @media screen and (min-width: 1200px) {
+ /*  @media screen and (min-width: 1200px) {
     .master-container {
       margin-right: 20%;
       margin-left: 20%;
@@ -103,7 +104,7 @@ html {
       margin-right: 25%;
       margin-left: 25%;
     }
-  } 
+  }  */
   
   /*
   ========================================
@@ -113,7 +114,7 @@ html {
   .page-content-container {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-column-gap: 20px;
+    grid-column-gap: 2%;
     grid-template-areas: "sidebar main";
     /* background-color: #f6e9ac;  */
     /* background-color: #cccccc; */
@@ -121,11 +122,16 @@ html {
     margin-bottom: 2%;
     padding-top: 1%;
     margin-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+/*     padding-left: 3%;
+    padding-right: 5%; */
+
   }
 
-  @media screen and (max-width: 1366px) {
+  /* @media screen and (max-width: 1366px) {
     .page-content-container {
-      grid-template-columns: 100%; /* Single column layout */
+      grid-template-columns: 100%; 
       grid-template-areas:
         "sidebar"
         "main"; 
@@ -139,7 +145,7 @@ html {
     p, tr {
       font-size: 11pt;
     }
-  }
+  } */
   
   /*
   ========================================
@@ -149,10 +155,10 @@ html {
   
   .profile-sidebar {
     grid-area: sidebar;
-    margin-left: 9%; 
+    margin-left: 10%; 
   }
 
-  @media screen and (max-width: 1200px) {
+/*   @media screen and (max-width: 1200px) {
     .profile-sidebar {
       display: flex;
       margin-left: 7%;
@@ -167,7 +173,7 @@ html {
       margin-top: 5%;
     }
   }
-
+ */
   .profile-sidebar {
     grid-template-columns: 1fr; 
   }
@@ -193,8 +199,8 @@ html {
   
   .profile-sidebar ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+/*     padding: 0;
+     margin: 0; */
   }
   
   /*
@@ -218,9 +224,9 @@ html {
   .friend-picture-container {
     list-style: none; 
     padding: 1%;
-    margin-bottom: 5%;
+ /*    margin-bottom: 5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; */
   }
   
   .friend-picture-container li {
@@ -232,15 +238,17 @@ html {
   
   .friend-picture-container h3 {
     margin: 5px 0;
+    font-size: 80%;
     /* font-family: '8-bit'; */
   }
 
   .profile-picture-container {
-    display: grid;
-    grid-template-columns: 170px 115px;
-    grid-template-rows: 176px;
-    grid-column-gap: 15px;
-    margin-bottom: 12px;
+ /*    display: grid;
+    grid-template-columns: 60% 40%; */
+/*     grid-template-columns: 170px 115px;
+    grid-template-rows: 176px; */
+    grid-column-gap: 3%;
+    margin-bottom: 2%;
   }
   
   .profile-picture-container p {
@@ -253,29 +261,40 @@ html {
     line-height: 1.5;
   }
   
+  .profile-details-container {
+    display: flex; 
+  }
   .profile-pic {
-    grid-area: 1/1;
+/*     grid-area: 1/1; */
     width: 100%;
     height: 100%; 
+    max-width: 400px;
+    max-height: 400px; 
   }
   
   .personal-msg {
-    grid-area: 1/2;
+/*     grid-area: 1/2; */
     margin: 0;
+    padding: 0;
   }
   
   .gender-age {
-    grid-area: 1/2;
-    font-size: 115%;
+/*     grid-area: 1/2; */
+ /*    font-size: 12pt; */
+ padding: 0;
   }
   
-  .gender-age li:first-child {
+/*   .gender-age li:first-child {
     margin-top: 28px;
-  }
+  } */
+
 
   .last-login {
-    grid-area: 1/2;
-    align-self: end;
+    padding-left: 5%;
+/*     grid-area: 1/2; */
+/*     align-self: end; */
+/*     font-size: 12pt; */
+
   }
   
  /*  .last-login li:last-child {
@@ -288,11 +307,16 @@ html {
     align-self: end;
     display: flex;
     list-style-type: none;
+    margin-top: 0;
   }
 
-  .pics-videos {
+/*   .pics-videos li {
+    padding-top: 3%;
+  } */
+
+/*   .pics-videos {
     font-size: 9pt;
-  }
+  } */
 
   .pics-videos li:before {
     content: none;
@@ -300,7 +324,7 @@ html {
 
   .pics-videos li { 
     margin-left: 5px;
-    margin-top: 3px;
+    /* margin-top: 3px; */
   }
  
   /*
@@ -310,8 +334,8 @@ html {
   */
   .contact-box {
     border: 2px solid #64a4f2;
-    height: 120px;
-    width: 300px;
+/*     height: 120px;
+    width: 300px; */
     margin-bottom: 24px;
   }
   
@@ -326,8 +350,8 @@ html {
   }
   
   .contact-images {
-    display: grid;
-    grid-template-columns: 150px 150px;
+/*     display: grid;
+    grid-template-columns: 150px 150px; */
     margin: 0;
     margin-top: 5px;
     margin-left: 10px;
@@ -339,7 +363,7 @@ html {
   ========================================
   */
   .bandspace-url-box-main {
-    width: 300px;
+/*     width: 300px; */
     border: 1px solid #000000;
     margin-bottom: 4%;
   }
@@ -364,7 +388,7 @@ html {
   .bandspace-url-box {
     border: 1px solid #000000;
     /* height: 26px; */
-    width: 300px;
+    /* width: 300px; */
     margin-bottom: 24px;
   }
   
@@ -417,19 +441,19 @@ html {
     color: #000000;
     padding: 3px;
     font-weight: bold;
-    font-size: 8pt;
+    font-size: 12pt;
     /* font-family: '8-bit'; */
   }
   
   .sidebar-table-data {
-    width: 184px;
+/*     width: 184px; */
     background-color: #dee9fd;
     padding: 3px;
     /* font-family: '8-bit'; */
   }
 
   .sidebar-table tbody {
-    font-size: 9pt; 
+    font-size: 12pt; 
   }
   
   /*
@@ -458,7 +482,8 @@ html {
   */
   .details table {
     margin-bottom: 22px;
-    width: 305px;
+    width: 100%;
+/*     width: 305px; */
   }
   
   /*
@@ -467,13 +492,13 @@ html {
   ========================================
   */
   .schools .sidebar-table-header {
-    width: 228px;
+/*     width: 228px; */
     color: black;
     font-weight: normal;
   }
   
   .schools .sidebar-table-data {
-    width: 63px;
+/*     width: 63px; */
     text-align: center;
     vertical-align: top;
   }
