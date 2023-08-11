@@ -45,7 +45,7 @@ import Joe from '/images/cameron.jpeg';
           {/* BandSpace URL */}
           <section className="bandspace-url-box">
             <h3><b>BandSpace URL:</b></h3>
-            <p>http://www.sadbod/cameronschneider.com</p>
+            <p>http://www.sadbod/cameron.com</p>
           </section>
 
         </aside>

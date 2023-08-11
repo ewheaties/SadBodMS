@@ -13,7 +13,6 @@ import Merch from './components/Merch';
 import Events from './components/Events';
 import Contact from './components/Contact';
 
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -29,10 +28,8 @@ function App() {
           <Route path="/media" element={<Media />} />
           <Route path="/merch" element={<Merch />} />
           <Route path="/events" element={<Events />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
-
-      
     </div>
   );
 }

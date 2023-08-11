@@ -9,6 +9,7 @@ import Joe from '/images/joe.jpeg';
 import Jeremy from '/images/jeremy.jpeg';
 import Cameron from '/images/cameron.jpeg';
 import MainProfile from '/images/bandcover.jpeg';
+import Footer from './Footer';
 
   function Home() {
     return (
@@ -58,8 +59,8 @@ import MainProfile from '/images/bandcover.jpeg';
       <img src="pictures/addFavoritesIcon.gif" alt="Add to Favorites" />
       <img src="pictures/messagefriend.gif" alt="Instant Message" />
       <img src="pictures/blockUser.gif" alt="Block User" />
-      <img src="pictures/addToGroupIcon.gif" alt="Add to Group" />
-      <img src="pictures/rankUserIcon.gif" alt="Rank User" />
+      {/* <img src="pictures/addToGroupIcon.gif" alt="Add to Group" /> */}
+      {/* <img src="pictures/rankUserIcon.gif" alt="Rank User" /> */}
     </figure>
   </section>
   </div>
@@ -119,7 +120,7 @@ import MainProfile from '/images/bandcover.jpeg';
 
         <tr>
           <th className="sidebar-table-header" scope="row">Occupation:</th>
-          <td className="sidebar-table-data">Being Emo</td>
+          <td className="sidebar-table-data">Rockstarks</td>
         </tr>
       </tbody>
     </table>
@@ -137,17 +138,17 @@ import MainProfile from '/images/bandcover.jpeg';
       <h2>SadBod is in your extended network</h2>
     </header>
   </section>
-
+{/*
   <section className="blog">
-    {/* <p><b>SadBod's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
+     <p><b>SadBod's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
     <p>BandSpace Concert & Parties -Georgia, Orlando, Miami! (<a href="#">view more</a>) </p>
     <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
     <p>BandSpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
     <p>October 29th - BandSpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
     <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p>
-    <p>[<a href="#">View All Blog Entries</a>]</p> */}
+    <p>[<a href="#">View All Blog Entries</a>]</p> 
   </section>
-
+*/}
   <section className="blurbs">
     <header className="main-section-header">
       <h2 className="main-section-h2">SadBod's Blurbs</h2>
@@ -210,8 +211,10 @@ import MainProfile from '/images/bandcover.jpeg';
   </section> */}
 </main>
 {/* Main Section Ends */}
+
 </div>
 {/* Page Content Container Ends */}
+<Footer/>
       </div>
     );
   }

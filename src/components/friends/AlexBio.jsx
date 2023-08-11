@@ -45,7 +45,7 @@ import Alex from '/images/alex.jpeg';
           {/* BandSpace URL */}
           <section className="bandspace-url-box">
             <h3><b>BandSpace URL:</b></h3>
-            <p>http://www.sadbod/alexhall.com</p>
+            <p>http://www.sadbod/alex.com</p>
           </section>
 
         </aside>

@@ -120,6 +120,7 @@ html {
     background-color: #fefefe;
     margin-bottom: 2%;
     padding-top: 1%;
+    margin-bottom: 1%;
   }
 
   @media screen and (max-width: 1366px) {
@@ -130,6 +131,7 @@ html {
         "main"; 
         margin-right: 10%;
       margin-left: 10%;
+      margin-bottom: 1%;
     }
     main {
       margin-left: 5%;
@@ -308,7 +310,7 @@ html {
   */
   .contact-box {
     border: 2px solid #64a4f2;
-    height: 149px;
+    height: 120px;
     width: 300px;
     margin-bottom: 24px;
   }

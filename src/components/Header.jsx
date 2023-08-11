@@ -71,9 +71,9 @@ import Smiley from '/images/smiley.png';
               <li>
                 <Link to="/Events">Events</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/Contact">Contact</Link>
-              </li>
+              </li> */}
             </ul>       
           </nav>
       </header>
