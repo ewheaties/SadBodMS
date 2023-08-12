@@ -37,7 +37,7 @@ import Alex from '/images/alex.jpeg';
     </ul>
     </div>
 
-            <p className="pics-videos">View My: 
+            <p className="pics-videos-about">View My: 
               <li>
                 <Link to="/Media">Pics</Link>
               </li><li>
@@ -60,13 +60,13 @@ import Alex from '/images/alex.jpeg';
             </header>
 
             <h3>About me:</h3>
-            <p>I have always had a passion for music! Mom taught me how to sing as a kid. When I was 13 I taught myself how to play guitar and starting writing songs. I played saxophone in high school and at the time joined my first band NaCl in 2015, then joined Distant Youth in 2019.  
+            <p>666 party with the devil bitch 
             <br />
             <strong> Founding member of SadBod </strong>
             </p>
 
             <h3>Who I'd like to meet:</h3>
-            <p> Hailey Williams</p>
+            <p> your mom</p>
           </section>
 
           <section className="comments">

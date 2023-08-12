@@ -37,7 +37,7 @@ import Joe from '/images/joe.jpeg';
     </ul>
     </div>
 
-            <p className="pics-videos">View My: 
+            <p className="pics-videos-about">View My: 
               <li>
                 <Link to="/Media">Pics</Link>
               </li><li>

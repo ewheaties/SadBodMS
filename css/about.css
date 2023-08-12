@@ -85,8 +85,23 @@
     height: auto; 
   }
 
-  .pics-videos li {
+  .pics-videos-about {
+    /* grid-area: 1/1; */
+    /* justify-self: center; */
+    align-self: end;
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 2%;
+  }
+
+  .pics-videos-about li:before {
+    content: none;
+  }
+
+  .pics-videos-about li {
     padding-top: 3%;
+    margin-left: 2%;
   }
   
   .about-friend-picture-container {

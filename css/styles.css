@@ -264,6 +264,7 @@ html {
   .profile-details-container {
     display: flex; 
   }
+
   .profile-pic {
 /*     grid-area: 1/1; */
     width: 100%;
@@ -308,6 +309,7 @@ html {
     display: flex;
     list-style-type: none;
     margin-top: 0;
+    margin-bottom: 2%;
   }
 
 /*   .pics-videos li {
@@ -436,7 +438,7 @@ html {
   .sidebar-table-header {
     vertical-align: top;
     text-align: left;
-    width: 107px;
+    /* width: 107px; */
     background-color: #64a4f2;
     color: #000000;
     padding: 3px;
@@ -543,16 +545,20 @@ html {
   ========================================
   */
   .blog {
-    display: grid;
-    grid-auto-rows: 29px;
+/*     display: grid; */
+ /*    grid-auto-rows: 29px; */
     flex-direction: column;
-    margin-top: 13px;
+    margin-top: 5%;
+    margin-left: 5%;
+/*     margin-top: 13px;
     margin-left: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
   }
   
   .blog p {
     margin-top: 3px;
+    font-size: 100%;
+    line-height: 1.5;
   }
   
   /*
@@ -718,8 +724,9 @@ html {
     font-weight: normal;
     text-align: left;
     margin: 0;
+    margin: 0 10px 15px 15px;
   }
-  
+
   #add-comment {
     text-align: right;
     margin-right: 10px;

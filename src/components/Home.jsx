@@ -83,9 +83,9 @@ import Footer from './Footer';
 
       <tbody>
         <tr>
-          <th className="sidebar-table-header" scope="row">Music</th>
+          <th className="sidebar-table-header" scope="row">Music:</th>
           <td className="sidebar-table-data">
-            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, {/* American Hi-Fi, */} 3OH!3, Modern Baseball{/* , The Front Bottoms, Hawthorne Lights, The Spill Canvas */} </p>
+            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball, The Front Bottoms, Hawthorne Lights, The Spill Canvas </p>
             {/* <p><b>Solo Artists</b>: </p>
             <p><b>Singers</b>: </p>
             <p><b>Albums</b>: </p>
@@ -140,17 +140,17 @@ import Footer from './Footer';
       <h2>SadBod is in your extended network</h2>
     </header>
   </section>
-{/*
+
   <section className="blog">
-     <p><b>SadBod's Latest Blog Entry</b> [<a href="#">Subscribe to this Blog</a>]</p>
-    <p>BandSpace Concert & Parties -Georgia, Orlando, Miami! (<a href="#">view more</a>) </p>
-    <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
+     <p><b>SadBod's Latest Event</b> [<a href="#">Subscribe{/* to this Blog */}</a>]</p>
+    <p>Ardade Bar Stuart 7/31 (<a href="#">view more</a>) </p>
+{/*     <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
     <p>BandSpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
     <p>October 29th - BandSpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
-    <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p>
+    <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p> */}
     <p>[<a href="#">View All Blog Entries</a>]</p> 
   </section>
-*/}
+
   <section className="blurbs">
     <header className="main-section-header">
       <h2 className="main-section-h2">SadBod's Blurbs</h2>
@@ -213,6 +213,7 @@ import Footer from './Footer';
   </section> */}
 </main>
 {/* Main Section Ends */}
+
 
 </div>
 {/* Page Content Container Ends */}
