@@ -338,7 +338,8 @@ html {
     border: 2px solid #64a4f2;
 /*     height: 120px;
     width: 300px; */
-    margin-bottom: 24px;
+  /*   margin-bottom: 24px; */
+  margin-bottom: 7%;
   }
   
   .contact-box h2 {
@@ -367,7 +368,7 @@ html {
   .bandspace-url-box-main {
 /*     width: 300px; */
     border: 1px solid #000000;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
   }
 
   .bandspace-url-box-main h3,
@@ -474,7 +475,7 @@ html {
   }
   
   .interests table {
-    margin-bottom: 13px;
+    margin-bottom: 7%;
   }
   
   /*
@@ -483,7 +484,7 @@ html {
   ========================================
   */
   .details table {
-    margin-bottom: 22px;
+    margin-bottom: 7%;
     width: 100%;
 /*     width: 305px; */
   }
@@ -731,6 +732,10 @@ html {
     text-align: right;
     margin-right: 10px;
     margin-bottom: 5px;
+  }
+
+  .comments { 
+    margin-left: 4%;
   }
   
   /*
