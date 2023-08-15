@@ -15,7 +15,7 @@
   }
   
   .smiley-nav {
-    padding-bottom: 0.50%;
+    padding-bottom: 1%;
     display: grid;
     grid-template-columns: .25fr 1fr .25fr;
     align-items: center;
@@ -67,6 +67,8 @@
   .search-bar {
     display: grid;
     grid-template-columns: .25fr 1fr .25fr;
+    margin-top: 1%;
+/*     margin-bottom: 1%; */
   }
   
   .search-bar form {
