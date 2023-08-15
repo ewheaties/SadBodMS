@@ -12,6 +12,7 @@ import About from './components/About';
 import Merch from './components/Merch';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -30,6 +31,9 @@ function App() {
           <Route path="/events" element={<Events />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
+
+      <Footer/>
+      
     </div>
   );
 }

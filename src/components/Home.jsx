@@ -9,7 +9,6 @@ import Joe from '/images/joe.jpeg';
 import Jeremy from '/images/jeremy.jpeg';
 import Cameron from '/images/cameron.jpeg';
 import MainProfile from '/images/bandcover.jpeg';
-import Footer from './Footer';
 
   function Home() {
     return (
@@ -19,7 +18,7 @@ import Footer from './Footer';
 {/* Profile Sidebar Begins */}
 <aside className="profile-sidebar">
 {/* <div class="about-column-left"> */}
-  <header>
+  <header class="profile-header">
     <h1 class="page-title">SadBod</h1>
   </header>
 
@@ -144,6 +143,7 @@ import Footer from './Footer';
   <section className="blog">
      <p><b>SadBod's Latest Event</b> [<a href="#">Subscribe{/* to this Blog */}</a>]</p>
     <p>Ardade Bar Stuart 7/31 (<a href="#">view more</a>) </p>
+    <p>Pockets Vero Beach 7/10 (<a href="#">view more</a>) </p>
 {/*     <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
     <p>BandSpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
     <p>October 29th - BandSpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
@@ -217,7 +217,6 @@ import Footer from './Footer';
 
 </div>
 {/* Page Content Container Ends */}
-<Footer/>
       </div>
     );
   }
