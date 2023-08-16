@@ -65,7 +65,10 @@ import MainProfile from '/images/bandcover.jpeg';
       </Link>
         <img src="pictures/addFavoritesIcon.gif" alt="Add to Favorites" />
         <img src="pictures/messagefriend.gif" alt="Instant Message" />
+      <Link to="/NotFound">
         <img src="pictures/blockUser.gif" alt="Block User" />
+      </Link>
+        
       {/* <img src="pictures/addToGroupIcon.gif" alt="Add to Group" /> */}
       {/* <img src="pictures/rankUserIcon.gif" alt="Rank User" /> */}
     </figure>
