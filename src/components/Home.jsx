@@ -63,8 +63,12 @@ import MainProfile from '/images/bandcover.jpeg';
       <Link to="/Events">
         <img src="pictures/addFriendIcon.gif" alt="Add to Friends" />
       </Link>
+      
         <img src="pictures/addFavoritesIcon.gif" alt="Add to Favorites" />
+        
+      <a href="https://www.facebook.com/messages/t/sadbodband">
         <img src="pictures/messagefriend.gif" alt="Instant Message" />
+      </a>
       <Link to="/NotFound">
         <img src="pictures/blockUser.gif" alt="Block User" />
       </Link>
