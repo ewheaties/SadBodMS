@@ -13,6 +13,7 @@ import Merch from './components/Merch';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import NotFound from './NotFound'; 
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -30,10 +31,11 @@ function App() {
           <Route path="/merch" element={<Merch />} />
           <Route path="/events" element={<Events />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer/>
-      
+
     </div>
   );
 }
