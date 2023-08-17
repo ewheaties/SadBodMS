@@ -170,15 +170,14 @@ import MainProfile from '/images/bandcover.jpeg';
 
     <h3>About me:</h3>
     <p>What brings us together is a passion for emo and pop punk music. We play all the favorites, from Metro Station to Blink-182, we got it all and jam all over the Treasure Coast! 
-        <br />
-        <p class="strong-emo"> Come get emo with us some time! </p>
+        <br />      
     </p>
     {/* <span className="info">Before asking me a question, please check the <a href="#">FAQ</a> to see if your question has already been answered.</span>*/}
-
+    
     <h3>Who I'd like to meet:</h3>
     <p> You at our next show ;) </p>
   </section>
-
+  <p class="strong-emo"> Come get emo with us some time! </p>
   <section className="comments">
     <header>
       <h2>SadBod's Comments</h2>
@@ -195,27 +194,39 @@ import MainProfile from '/images/bandcover.jpeg';
 
     <ul className="friend-picture-container">
       <li>
-        <h3>Alex Hall</h3>
-        <img class="friend-pic" src={Alex} alt="SadBod's friend" />
+        <Link to="/About">
+          <h3>Alex Hall</h3>     
+          <img class="friend-pic" src={Alex} alt="SadBod's friend" />
+        </Link>
       </li>
       <li>
-        <h3>James Foerst</h3>
-        <img class="friend-pic" src={James} alt="SadBod's friend" />               
+        <Link to="/About">
+          <h3>James Foerst</h3>
+          <img class="friend-pic" src={James} alt="SadBod's friend" />       
+        </Link>        
+      </li>     
+      <li>
+        <Link to="/About">
+          <h3>Joe Grover</h3>
+          <img class="friend-pic" src={Joe} alt="SadBod's friend" />
+        </Link>
       </li>
       <li>
-        <h3>Joe Grover</h3>
-        <img class="friend-pic" src={Joe} alt="SadBod's friend" />
+        <Link to="/About">
+          <h3>Jeremy Rodriguez</h3>
+          <img class="friend-pic" src={Jeremy} alt="SadBod's friend" />
+        </Link>
       </li>
       <li>
-        <h3>Jeremy Rodriguez</h3>
-        <img class="friend-pic" src={Jeremy} alt="SadBod's friend" />
-      </li>
-      <li>
-        <h3>Cameron Schneider</h3>
-        <img class="friend-pic" src={Cameron} alt="SadBod's friend" /> 
+        <Link to="/About">
+          <h3>Cameron Schneider</h3>
+          <img class="friend-pic" src={Cameron} alt="SadBod's friend" /> 
+        </Link>
       </li>  
     </ul>
-    <p><a href="#">View All of SadBod's Friends</a></p>
+    <Link to="/About">
+      <p>{/* <a href="#"> */}View All of SadBod's Friends</p>
+    </Link>
   </section> 
 
 {/*           <section className="testimonial">
