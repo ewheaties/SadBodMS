@@ -171,7 +171,7 @@ import MainProfile from '/images/bandcover.jpeg';
     <h3>About me:</h3>
     <p>What brings us together is a passion for emo and pop punk music. We play all the favorites, from Metro Station to Blink-182, we got it all and jam all over the Treasure Coast! 
         <br />
-        <strong> Come get emo with us some time! </strong>
+        <p class="strong-emo"> Come get emo with us some time! </p>
     </p>
     {/* <span className="info">Before asking me a question, please check the <a href="#">FAQ</a> to see if your question has already been answered.</span>*/}
 

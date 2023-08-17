@@ -125,7 +125,8 @@
     align-items: center;
     margin-top: auto;
     background-color: rgb(102, 153, 204);
-    min-height: 32px;
+    min-height: 48px;
+    font-size: 125%;
   }
 
   /* @media screen and (max-width: 1200px) {

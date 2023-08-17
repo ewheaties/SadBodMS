@@ -67,7 +67,7 @@ html {
   }
   
   h2 {
-    font-size: 9pt;
+    font-size: 14pt;
     margin: 0;
     font-weight: bold;
   }
@@ -267,7 +267,7 @@ html {
   
   .profile-details-container {
     display: flex; 
-    font-size: calc(1vw + 4px);
+    font-size: calc();
   }
 
   .profile-pic {
@@ -287,7 +287,8 @@ html {
   .gender-age {
 /*     grid-area: 1/2; */
  /*    font-size: 12pt; */
- padding: 0;
+    padding: 0;
+/*     line-height: 1.5; */
   }
   
 /*   .gender-age li:first-child {
@@ -300,7 +301,7 @@ html {
 /*     grid-area: 1/2; */
 /*     align-self: end; */
 /*     font-size: 12pt; */
-
+/*     line-height: 1.5; */
   }
   
  /*  .last-login li:last-child {
@@ -314,7 +315,7 @@ html {
     display: flex;
     list-style-type: none;
     margin-top: 0;
-    font-size: calc(1vw + 4px);
+    font-size: calc();
 /*     margin-bottom: 2%; */
   }
 
@@ -445,6 +446,7 @@ html {
     min-height: 17px;
     padding-left: 10px;
     padding-top: 0.9%;
+    padding-bottom: 2%;
 /*     padding-bottom: 2%; */
     /* font-family: '8-bit'; */
     /* font-size: 85%; */
@@ -459,7 +461,7 @@ html {
     padding: 3px;
     font-weight: bold;
     /* font-size: 12pt; */
-    font-size: calc(1vw + 6px);
+    font-size: calc(1vw + 4px);
     /* font-family: '8-bit'; */
   }
   
@@ -563,7 +565,8 @@ html {
   
   .user-network h2 {
     /* font-size: 12pt; */
-    font-size: calc(1vw + 4px);
+    /* font-size: calc(); */
+    line-height: 1.5;
   }
   
   /*
@@ -612,11 +615,18 @@ html {
   .blurbs {
     margin-top: 4%;
  }
+
+ .strong-emo {
+   font-family: 'logofont'; 
+   font-size: calc(1vh + 22px);
+   text-align: center;
+   line-height: 1.5;
+ }
   
   .blurbs h3 {
     margin: 0;
     color: #000000;
-    font-size: 9pt;
+    font-size: 14pt;
     margin-left: 15px;
   }
   
