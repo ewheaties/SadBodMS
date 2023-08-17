@@ -11,7 +11,7 @@ import InstagramLink from '../widgets/InstagramLink';
     const facebookLink = 'https://www.facebook.com/joeychainsaw';
     const instagramLink = 'https://www.instagram.com/joeychainsaw/';
     return (
-      <div class="joe-grover"> 
+      <div id="joe-grover"> 
       {/*** Alex Hall ***/}
       <div className="about-page-content-container">
 
