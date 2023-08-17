@@ -1,5 +1,5 @@
 import React from 'react';
-import YoutubeVideo from './YoutubeVideo';
+import YoutubeVideo from './widgets/YoutubeVideo';
 
 import '/css/media.css';
 

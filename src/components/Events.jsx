@@ -1,5 +1,5 @@
 import React from 'react';
-import EmailSignUpForm from './EmailSignUpForm';
+import EmailSignUpForm from './widgets/EmailSignUpForm';
 import '/css/events.css';
  
   function Events() {
