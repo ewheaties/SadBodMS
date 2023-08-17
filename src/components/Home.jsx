@@ -53,7 +53,7 @@ import MainProfile from '/images/bandcover.jpeg';
   <section className="contact-box">
     <h2>Contacting SadBod</h2>
 
-    <figure className="contact-images">
+    <div className="contact-images">
       <a href="mailto:sadbodband@gmail.com">
         <img src="pictures/sendMailIcon.gif" alt="Send Message" />
       </a>
@@ -75,7 +75,7 @@ import MainProfile from '/images/bandcover.jpeg';
         
       {/* <img src="pictures/addToGroupIcon.gif" alt="Add to Group" /> */}
       {/* <img src="pictures/rankUserIcon.gif" alt="Rank User" /> */}
-    </figure>
+    </div>
   </section>
 {/*   </div> */}
 {/*   <div class="about-column-right"> */}
