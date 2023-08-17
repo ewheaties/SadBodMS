@@ -96,13 +96,12 @@ import MainProfile from '/images/bandcover.jpeg';
       <tbody>
         <tr>
           <th className="sidebar-table-header" scope="row">Music:</th>
-          <td className="sidebar-table-data">
-            <p><b>Bands</b>: Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball, The Front Bottoms, Hawthorne Lights, The Spill Canvas </p>
+          <td className="sidebar-table-data-music"> Blink-182, Paramore, Taking Back Sunday, Brand New, Metro Station, Good Charlotte, Neck Deep, American Hi-Fi, 3OH!3, Modern Baseball, The Front Bottoms, Hawthorne Lights, The Spill Canvas </td>
             {/* <p><b>Solo Artists</b>: </p>
             <p><b>Singers</b>: </p>
             <p><b>Albums</b>: </p>
             <p><b>Instruments</b>: </p> */}
-          </td>
+{/*           </td> */}
         </tr>
       </tbody>
     </table>

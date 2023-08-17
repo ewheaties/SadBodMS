@@ -267,6 +267,7 @@ html {
   
   .profile-details-container {
     display: flex; 
+    font-size: calc(1vw + 4px);
   }
 
   .profile-pic {
@@ -313,6 +314,7 @@ html {
     display: flex;
     list-style-type: none;
     margin-top: 0;
+    font-size: calc(1vw + 4px);
 /*     margin-bottom: 2%; */
   }
 
@@ -395,6 +397,7 @@ html {
   
   .bandspace-url-box-main p {
     padding-left: 6px;
+    font-size: calc(1vw + 4px);
   }
 
   .bandspace-url-box {
@@ -432,6 +435,7 @@ html {
     display: table;
     border-collapse: separate;
     border-spacing: 3px;
+    width: 100%;
   }
   
   .sidebar-table-h2 {
@@ -454,7 +458,8 @@ html {
     color: #000000;
     padding: 3px;
     font-weight: bold;
-    font-size: 12pt;
+    /* font-size: 12pt; */
+    font-size: calc(1vw + 6px);
     /* font-family: '8-bit'; */
   }
   
@@ -462,11 +467,20 @@ html {
 /*     width: 184px; */
     background-color: #dee9fd;
     padding: 3px;
+    font-size: calc(1vw + 4px);
+    line-height: 2;
     /* font-family: '8-bit'; */
   }
 
   .sidebar-table tbody {
     font-size: 12pt; 
+  }
+
+  .sidebar-table-data-music {
+    background-color: #dee9fd;
+    padding: 3px;
+    line-height: 2;
+    font-size: calc(1vw + 4px);
   }
   
   /*
@@ -538,6 +552,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     /* width: 433px; */
     margin: auto;
     height: 75px;
@@ -547,7 +562,8 @@ html {
   }
   
   .user-network h2 {
-    font-size: 12pt;
+    /* font-size: 12pt; */
+    font-size: calc(1vw + 4px);
   }
   
   /*
