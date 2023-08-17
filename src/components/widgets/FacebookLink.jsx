@@ -1,7 +1,6 @@
 import React from 'react';
 
-const FacebookLink = () => {
-  const facebookLink = 'https://www.facebook.com/sadbodband'; // Replace with your actual Facebook page URL
+const FacebookLink = ({facebookLink}) => {
   const imageUrl = './images/facebook-1.png'; // Replace with the URL of the image you want to use
   //https://www.facebook.com/sadbodband
   return (

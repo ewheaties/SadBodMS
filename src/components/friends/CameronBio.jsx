@@ -3,8 +3,13 @@ import { Link } from 'react-router-dom';
 
 import '/css/events.css';
 import Joe from '/images/cameron.jpeg';
+
+import FacebookLink from '../widgets/FacebookLink'; 
+import InstagramLink from '../widgets/InstagramLink'; 
  
   function CameronBio() {
+    const facebookLink = 'https://www.facebook.com/kitchwamadd';
+    const instagramLink = 'https://www.instagram.com/kitchwamadd/';
     return (
       <div class="joe-grover"> 
       {/*** Alex Hall ***/}
@@ -46,10 +51,14 @@ import Joe from '/images/cameron.jpeg';
           </div>
 
           {/* BandSpace URL */}
-          <section className="bandspace-url-box">
+          <div class="socials-container">
+          <FacebookLink facebookLink={facebookLink} />
+          <InstagramLink instagramLink={instagramLink} />
+          </div>
+          {/* <section className="bandspace-url-box">
             <h3><b>BandSpace URL:</b></h3>
             <p>http://www.sadbod/cameron.com</p>
-          </section>
+          </section> */}
 
         </aside>
         <main>

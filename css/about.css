@@ -130,3 +130,22 @@
     margin-top: 26px;
     font-size: 100%;
 } */
+.socials-container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.socials-container a {
+  height: 25%; 
+  width: 25%; 
+  margin-left: 5%;
+}
+
+.socials-container img {
+  height: 90%; 
+  width: 90%; 
+  margin: 20%;
+}
