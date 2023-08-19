@@ -68,7 +68,8 @@
 .about-pic-title {
     font-family: 'logofont';
     margin: 0px;
-    font-size: 400%;
+    /*font-size: 400%;*/
+    font-size: calc(5vw);
     letter-spacing: 4px;
     font-weight: 100;
   }

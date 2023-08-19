@@ -34,7 +34,8 @@
 
 .footer p {
     /* font-size: 300%; */
-    font-size: clamp(100%, 4vw, 300%);
+    /*font-size: clamp(100%, 4vw, 300%);*/
+    font-size: calc(3vw);
     letter-spacing: 4px;
     font-weight: 100;
     margin-top: 1%;  
