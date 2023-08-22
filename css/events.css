@@ -25,10 +25,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'logofont';
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 100;
     line-height: 1.5;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .events form {
@@ -45,6 +48,7 @@
     font-size: 90%;
     margin-top: 1%;
     margin-bottom: 1%;
+    text-align: center;
 }
 
 .events label {
@@ -66,4 +70,19 @@
     font-family: 'logofont';
     font-size: 200%; 
     margin-top: 1%; 
+}
+
+.flyer-header {
+
+    color: #f6d20c;
+    letter-spacing: 4px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+}
+
+.flyer {
+    width: 100%; 
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
