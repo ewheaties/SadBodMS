@@ -56,36 +56,41 @@
 
 .image-gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-top: 20px; */
 }
 
-.image-gallery img {
+.gallery-images {
     max-width: 100%;
     height: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    max-width: 80%;
+    padding: 2% 2% 2% 2%;
+    
   }
 
-.image-gallery button {
+ .gallery-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+
+ } 
+
+.gallery-buttons button {
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
-  .image-gallery p {
+ .gallery-buttons img {
+    max-width: 100%;
+ } 
+  .gallery-buttons p {
     margin: 0;
     line-height: 1;
+    font-size: 100%;
   }
 
-  .dagger-left {
-    max-width: 100px;
-  }
-
-  .dagger-right {
-    max-width: 100px;
-  }

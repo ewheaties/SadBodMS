@@ -1,7 +1,7 @@
 import React from 'react';
 
 const YoutubeLink = ({youtubeLink}) => {
-  const imageUrl = './images/youtube-1.png'; 
+  const imageUrl = './images/buttons/youtube.png'; 
  
   return (
     <a href={youtubeLink} target="_blank" rel="noopener noreferrer">

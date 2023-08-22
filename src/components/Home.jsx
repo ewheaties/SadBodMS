@@ -2,11 +2,11 @@ import React from 'react';
 import '/css/home.css';
 import { Link } from 'react-router-dom';
 
-import Alex from '/images/alex.jpeg';
-import James from '/images/james.jpeg';
-import Joe from '/images/joe.jpeg';
-import Jeremy from '/images/jeremy.jpeg';
-import Cameron from '/images/cameron.jpeg';
+import Alex from '/images/friend-pics/alex.jpeg';
+import James from '/images/friend-pics/james.jpeg';
+import Joe from '/images/friend-pics/joe.jpeg';
+import Jeremy from '/images/friend-pics/jeremy.jpeg';
+import Cameron from '/images/friend-pics/cameron.jpeg';
 import MainProfile from '/images/bandcover.jpeg';
 
   function Home() {

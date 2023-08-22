@@ -1,8 +1,8 @@
 import React from 'react';
 import EmailSignUpForm from './widgets/EmailSignUpForm';
 import '/css/events.css';
-import Flyer1 from '/images/2_11flyer.png';
-import Flyer2 from '/images/6_10flyer.png';
+import Flyer1 from '/images/flyers/2_11flyer.png';
+import Flyer2 from '/images/flyers/6_10flyer.png';
  
   function Events() {
     return (

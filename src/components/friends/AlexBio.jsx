@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '/css/events.css';
-import Alex from '/images/alex.jpeg';
+import Alex from '/images/friend-pics/alex.jpeg';
 
 import FacebookLink from '../widgets/FacebookLink'; 
 import InstagramLink from '../widgets/InstagramLink'; 
