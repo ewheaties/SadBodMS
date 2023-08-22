@@ -54,43 +54,13 @@
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
 }
 
-.image-gallery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.media p {
+    margin-right: 1%;
+    font-family: 'logofont';
+    font-size: 90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
 }
 
-.gallery-images {
-    max-width: 100%;
-    height: auto;
-    padding: 2% 2% 2% 2%;
-    
-  }
-
- .gallery-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2%;
-
- } 
-
-.gallery-buttons button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
- .gallery-buttons img {
-    max-width: 100%;
- } 
-  .gallery-buttons p {
-    margin: 0;
-    line-height: 1;
-    font-size: 100%;
-  }
 

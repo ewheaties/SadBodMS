@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import DaggerLeft from '/images/buttons/dagger-left.png';
 import DaggerRight from '/images/buttons/dagger-right.png';
 
+import '/css/gallery.css'; 
+
 const ImageGallery = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 

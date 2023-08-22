@@ -21,3 +21,12 @@
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
     font-weight: 100;
 }
+
+.merch p {
+    margin-right: 1%;
+    font-family: 'logofont';
+    font-size: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}

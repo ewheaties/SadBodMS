@@ -1,8 +1,9 @@
 import React from 'react';
 import YoutubeVideo from './widgets/YoutubeVideo';
-import BandCoverPicture from '/images/gallery-images/bandblackwhite.jpeg';
-import GroupPic from '/images/gallery-images/group-pic.jpeg';
 import ImageGallery from './widgets/ImageGallery';
+
+import BandCoverPicture from '/images/media-images/bandblackwhite.jpeg';
+import GroupPic from '/images/media-images/group-pic.jpeg';
 
 import '/css/media.css';
 
@@ -22,8 +23,8 @@ import '/css/media.css';
         <div class="media-container">
           <h2>Pictures</h2>
           <ImageGallery images={images} />
-          <h2>Videos</h2>
-          <YoutubeVideo videoId={youtubeVideoId} />
+          {/* <h2>Videos</h2>
+          <YoutubeVideo videoId={youtubeVideoId} /> */}
         </div>
       </div>
     );
