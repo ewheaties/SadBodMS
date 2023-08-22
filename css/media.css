@@ -19,10 +19,73 @@
     letter-spacing: 12px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
     font-weight: 100;
+    margin-bottom: 1%;
 }
+
+.band-cover {
+    width: 100%;
+}
+
+.media-container {
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
 
 .youtube {
     display: flex; 
     align-items: center;
     justify-content: center; 
 }
+
+.media h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'logofont';
+    font-size: 200%;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #f6d20c;
+    letter-spacing: 4px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    max-width: 80%;
+  }
+
+.image-gallery button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .image-gallery p {
+    margin: 0;
+    line-height: 1;
+  }
+
+  .dagger-left {
+    max-width: 100px;
+  }
+
+  .dagger-right {
+    max-width: 100px;
+  }
