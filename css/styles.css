@@ -67,14 +67,16 @@ html {
   }
   
   h2 {
-    font-size: 14pt;
+    /*font-size: 14pt;*/
     margin: 0;
     font-weight: bold;
+    font-size: calc(1.75vw);
   }
   
   p {
     line-height: 2.25;
-    font-size: 12pt; 
+    /*font-size: 12pt;*/
+    font-size: calc(1.5vw); 
     /* font-family: '8-bit'; */
   }
   
@@ -159,7 +161,7 @@ html {
   }
 
   .profile-header {
-    font-size: clamp(200%, 4vw, 600%);
+    /*font-size: clamp(200%, 4vw, 600%);*/
   }
 /*   @media screen and (max-width: 1200px) {
     .profile-sidebar {
@@ -196,6 +198,7 @@ html {
   .page-title {
     font-family: 'logofont';
     margin: 0px;
+    font-size: calc(8vw);
 /*     font-size: 600%; */
     letter-spacing: 4px;
     font-weight: 100;
@@ -216,7 +219,7 @@ html {
   .friend-picture-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px; 
+    grid-gap: 1%; 
     margin-bottom: 12px;
   }
   
@@ -242,7 +245,8 @@ html {
   
   .friend-picture-container h3 {
     margin: 5px 0;
-    font-size: 100%;
+    /*font-size: 100%;*/
+    font-size: calc(1.5vw);
     /* font-family: '8-bit'; */
   }
 
@@ -288,6 +292,7 @@ html {
 /*     grid-area: 1/2; */
  /*    font-size: 12pt; */
     padding: 0;
+    font-size: calc(1.5vw);
 /*     line-height: 1.5; */
   }
   
@@ -298,6 +303,7 @@ html {
 
   .last-login {
     padding-left: 5%;
+    font-size: calc(1.5vw);
 /*     grid-area: 1/2; */
 /*     align-self: end; */
 /*     font-size: 12pt; */
@@ -356,6 +362,7 @@ html {
     padding-left: 10px;
     padding-top: 0.9%;
     padding-bottom: 2%;
+    font-size: calc(1.75vw);
 /*     font-family: '8-bit';
     font-size: 85%; */
   }
@@ -407,7 +414,8 @@ html {
   }
   
   .bandspace-url-box-main h3 {
-    font-size: 8pt;
+    /*font-size: 8pt;*/
+    font-size: calc(1.5vw);
     /* font-family: '8-bit'; */
     padding-left: 2%;
     padding-top: 2%;
@@ -415,7 +423,8 @@ html {
   
   .bandspace-url-box-main p {
     padding-left: 6px;
-    font-size: calc(1vwh + 3px);
+    /*font-size: calc(1vw + 3px);*/
+    font-size: calc(1.5vw);
   }
 
   .bandspace-url-box {
@@ -460,10 +469,12 @@ html {
     background-color: #64a4f2;
     color: white;
     text-align: left;
-    min-height: 17px;
-    padding-left: 10px;
+    /*min-height: 17px;*/
+    /*padding-left: 10px;*/
+    padding-left: 5%;
     padding-top: 0.9%;
     padding-bottom: 2%;
+    font-size: calc(1.75vw);
 /*     padding-bottom: 2%; */
     /* font-family: '8-bit'; */
     /* font-size: 85%; */
@@ -475,31 +486,32 @@ html {
     /* width: 107px; */
     background-color: #64a4f2;
     color: #000000;
-    padding: 3px;
+    /*padding: 3px;*/
+    padding: 1%;
     font-weight: bold;
     /* font-size: 12pt; */
-    font-size: calc(1vwh + 3px);
+    font-size: calc(1.5vw);
     /* font-family: '8-bit'; */
   }
   
   .sidebar-table-data {
 /*     width: 184px; */
     background-color: #dee9fd;
-    padding: 3px;
-    font-size: calc(1vwh + 3px);
+    /*padding: 3px;*/
+    font-size: calc(1.5vw);
     line-height: 2;
     /* font-family: '8-bit'; */
   }
 
   .sidebar-table tbody {
-    font-size: 12pt; 
+    /*font-size: 12pt; */
   }
 
   .sidebar-table-data-music {
     background-color: #dee9fd;
     padding: 3px;
     line-height: 2;
-    font-size: calc(1vwh + 3px);
+    font-size: calc(1.5vw);
   }
   
   /*
@@ -574,16 +586,18 @@ html {
     text-align: center;
     /* width: 433px; */
     margin: auto;
-    height: 75px;
+    /*height: 75px;*/
     /* border: 2px solid black; */
     border: 2px solid #000000; 
     margin-top: 13px;
+    height: 5%;
   }
   
   .user-network h2 {
     /* font-size: 12pt; */
     /* font-size: calc(); */
     line-height: 1.5;
+    font-size: calc(1.5vw);
   }
   
   /*
@@ -604,8 +618,9 @@ html {
   
   .blog p {
     margin-top: 3px;
-    font-size: 100%;
+    /*font-size: 100%;*/
     line-height: 1.5;
+    font-size: calc(1.5vw);
   }
   
   /*
@@ -627,6 +642,7 @@ html {
 /*     font-size: 90%; */
     padding-top: 0.9%;
     padding-bottom: 0.4%;
+    font-size: calc(1.75vw);
   }
 
   .blurbs {
@@ -645,8 +661,9 @@ html {
   .blurbs h3 {
     margin: 0;
     color: #000000;
-    font-size: 14pt;
+    /*font-size: 14pt;*/
     margin-left: 5%;
+    font-size: calc(1.75vw);
   }
   
   .blurbs p:nth-of-type(5) {
