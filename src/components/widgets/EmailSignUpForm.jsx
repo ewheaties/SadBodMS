@@ -13,16 +13,19 @@ const EmailSignUpForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    try {
-      // Make a POST request to the C# API endpoint
-      await axios.post('http://localhost:5000/api/subscribe', { email });
-      console.log('Email submitted:', email);
-      setEmail('');
-      setIsSubmitted(true);
-    } catch (error) {
-      console.error('Error submitting email:', error);
-    }
-  };
+      try {
+        const response = await axios.post('https://localhost:7199/api/SignUpRequest/SignUp', {
+          //firstName: firstName,
+          //lastName: lastName,
+          email: email
+        });
+  
+        setResponseMessage(response.data.Message);
+
+      } catch (error) {
+        console.error('API call error:', error);
+      }
+    };
 
 
   return (
