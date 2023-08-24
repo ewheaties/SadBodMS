@@ -3,6 +3,7 @@ import EmailSignUpForm from './widgets/EmailSignUpForm';
 import '/css/events.css';
 import Flyer1 from '/images/events-images/2_11flyer.png';
 import Flyer2 from '/images/events-images/6_10flyer.png';
+import Flyer3 from '/images/events-images/7_22flyer.jpeg'; 
 
 import ImageGallery from './widgets/ImageGallery';
 
@@ -18,8 +19,13 @@ import ImageGallery from './widgets/ImageGallery';
     return (
       <div class="events"> 
           <h1>Events!</h1>
-          {/* <h2>We'll let you know about our upcoming shows!</h2>
-          <EmailSignUpForm /> */}
+          <h2>We'll let you know about our next shows!</h2>
+          <EmailSignUpForm />
+          <h2>Upcoming Shows</h2>
+          <div class="image-gallery">
+          <img class="gallery-images" src={Flyer3} alt="SadBod" />
+          </div>
+          <h2>Past Shows</h2>
           <ImageGallery images={images} />
           {/* <h2 class="flyer-header"> Pockets, Vero Beach 6/10/23 </h2>
           <img class="flyer" src={Flyer2} alt="SadBod" />

@@ -32,6 +32,9 @@
     line-height: 1.5;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #f6d20c;
+    letter-spacing: 5px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
 }
 
 .events form {
