@@ -59,10 +59,9 @@ import MainProfile from '/images/bandcover.jpeg';
           <a href="mailto:friend@example.com?subject=Check%20out%20this%20awesome%20emo%20cover%20band&body=Hey%20there,%0D%0A%0D%0ACheck%20out%20this%20awesome%20emo%20cover%20band%20I%20found,%0D%0Aright%20here%20in%20Vero%20Beach,%20FL!%0D%0A%0D%0A(https://sadbod.com)%0D%0A%0D%0AKeep%20it%20emo%20:)">
             <img src="pictures/forwardMailIcon.gif" alt="Forward to Friend" />
           </a>
-          <Link to="/Events">
+          <a href="https://www.facebook.com/sadbodband">
             <img src="pictures/addFriendIcon.gif" alt="Add to Friends" />
-          </Link>
-          
+          </a>
           {/*  <img src="pictures/addFavoritesIcon.gif" alt="Add to Favorites" /> */}
             
           <a href="https://www.facebook.com/messages/t/sadbodband">
@@ -176,7 +175,7 @@ import MainProfile from '/images/bandcover.jpeg';
         <h3>Who I'd like to meet:</h3>
         <p> You at our next show ;) </p>
       </section>
-      <p class="strong-emo"> Come get emo with us some time! </p>
+      <p class="strong-emo"> Come get emo with us! </p>
       <section className="comments">
         <header>
           <h2>SadBod's Comments</h2>

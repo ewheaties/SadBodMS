@@ -1,7 +1,7 @@
 .events {
     background-color: #fefefe;
     margin-top: -1%;
-    padding-bottom: 1%;
+   /*  padding-bottom: 1%; */
 /*     min-height: 100vh; */
     margin-left: 15%;
     margin-right: 15%;
@@ -27,7 +27,7 @@
     align-items: center;
     text-align: center;
     font-family: 'logofont';
-    font-size: 200%;
+    font-size: 250%;
     font-weight: 100;
     line-height: 1.5;
     padding-top: 1%;
@@ -35,6 +35,8 @@
     color: #f6d20c;
     letter-spacing: 5px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
+    padding-left: 5%; 
+    padding-right: 5%;
 }
 
 .events form {
@@ -42,7 +44,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'logofont';
-    font-size: 200%;    
+    font-size: 250%;    
 }
 
 .events p {
@@ -59,7 +61,7 @@
 }
 
 .events input {
-    width: 30%;
+    width: 100%;
 }
 
 .events button {
@@ -88,4 +90,9 @@
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.email-list {
+    display: flex; 
+    flex-direction: row;
 }

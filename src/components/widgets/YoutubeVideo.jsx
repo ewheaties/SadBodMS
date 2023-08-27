@@ -7,7 +7,7 @@ const YoutubeVideo = ({ videoId }) => {
   useEffect(() => {
     const container = youtubeContainerRef.current;
 
-    /* const handleResize = () => {
+    const handleResize = () => {
       if (container) {
         const containerWidth = container.offsetWidth;
         const aspectRatio = 9 / 16;
@@ -20,7 +20,7 @@ const YoutubeVideo = ({ videoId }) => {
     window.addEventListener('resize', handleResize); 
     return () => {
       window.removeEventListener('resize', handleResize);
-    };*/
+    };
   }, []);
 
   const onReady = (event) => {

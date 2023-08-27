@@ -9,7 +9,7 @@ import '/css/media.css';
 
   function Media() {
  
-    const youtubeVideoId = 'E17BNIxDhLA';
+    const youtubeVideoId = 'QLfqMqTN_GA';
     const images = [
       BandCoverPicture,
       GroupPic
@@ -23,8 +23,8 @@ import '/css/media.css';
         <div class="media-container">
           <h2>Pictures</h2>
           <ImageGallery images={images} />
-          {/* <h2>Videos</h2>
-          <YoutubeVideo videoId={youtubeVideoId} /> */}
+          <h2>Videos</h2>
+          <YoutubeVideo videoId={youtubeVideoId} />
         </div>
       </div>
     );

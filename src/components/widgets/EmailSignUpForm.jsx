@@ -30,9 +30,12 @@ const EmailSignUpForm = () => {
 
   return (
     <div>
+       {/*  <p>Sign up for our email list:</p> */}
     <form onSubmit={handleSubmit}>
      {/*  <label htmlFor="email">Sign up for our email list:</label> */}
-     <p>Sign up for our email list:</p>
+     
+   
+     <div class="email-list">
       <input
         type="email"
         id="email"
@@ -42,6 +45,7 @@ const EmailSignUpForm = () => {
         required
         placeholder="Enter your email"
       />
+      </div>
       <button type="submit">Subscribe</button>
     </form>
     {isSubmitted && <p class="email-sent">Email sent! Thank you for subscribing.</p>}
