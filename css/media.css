@@ -44,13 +44,13 @@
     align-items: center;
     text-align: center;
     font-family: 'logofont';
-    font-size: 200%;
+    font-size: 250%;
     font-weight: 100;
     line-height: 1.5;
     padding-top: 1%;
     padding-bottom: 1%;
     color: #f6d20c;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; 
 }
 
@@ -63,4 +63,22 @@
     text-align: center;
 }
 
+.youtube {
+    position: relative;
+    width: 100%;
+  }
+  
+  .youtube iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+  }
+
+  .spotify-container {
+    display: flex;
+    justify-content: center;    
+    padding: 3% 0% 3% 0%;
+  }
 
