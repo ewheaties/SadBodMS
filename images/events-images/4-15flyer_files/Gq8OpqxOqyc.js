@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("GHLSVGTextWithTspanElement.react",["react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react"),i=d("react").useMemo;function a(a){var b=a.originalText,c=a.textElementID,d=a.textRef,e=a.textStyle,f=a.xPosition;a=a.yPosition;var g=i(function(){var a=Array.from(b),c=Math.floor(Date.now()/(1e3*24*3600));c=c%(a.length-1)+1;return{regular:a.slice(0,c).join(""),tspan:a.slice(c).join("")}},[b]);return h.jsxs("text",{id:c,ref:d,style:e,x:f,y:a,children:[g.regular,h.jsx("tspan",{children:g.tspan})]})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
-__d("GroupsCometAnonProfilePopoverQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="24229058926681482"}),null);
