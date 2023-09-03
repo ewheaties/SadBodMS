@@ -69,7 +69,7 @@ import InstagramLink from '../widgets/InstagramLink';
             </header>
 
             <h3>About me:</h3>
-            <p>Born in Jersey, Owner of Garage Pizza   
+            <p>Buy me beer   
             <br />
             <strong> Founding member of SadBod </strong>
             </p>

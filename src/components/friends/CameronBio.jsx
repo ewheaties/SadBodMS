@@ -69,7 +69,7 @@ import InstagramLink from '../widgets/InstagramLink';
             </header>
 
             <h3>About me:</h3>
-            <p>Been playing drums my whole life basically, was so excited when Joe reached out to me cause now I get to play my favorite emo songs all the time! I am also the man with all the equipment, big ole' speakers, and ts t ta tss!    
+            <p>Mechanic by day,  rocker by night, I'm a super rad ultra chill kind of guy, I like to ride motorcycles and play video games, I love post hardcore EMO slash punk pop, pop punk and can't forget my girl Taylor Swift!
             <br />
             <strong> Founding Member of SadBod </strong>
             </p>

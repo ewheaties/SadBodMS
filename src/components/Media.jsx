@@ -36,8 +36,7 @@ const theme = 'black'; // or 'white'
           <div class="spotify-container">
           
           <SpotifyPlayer
-          //uri="spotify:album:1TIUsv8qmYLpBEhvmBmyBk"
-         uri="spotify:playlist:6w7BjPZbiNByu33KADOLRS"
+          uri="spotify:playlist:2byCq9diCIezK0MuojAUAs"
           size={size}
           view={view}
           theme={theme}

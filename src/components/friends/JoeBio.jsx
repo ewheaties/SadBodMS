@@ -69,7 +69,7 @@ import InstagramLink from '../widgets/InstagramLink';
             </header>
 
             <h3>About me:</h3>
-            <p>Born and raised in Jersey. I came up with the idea for an emo cover band in 2021, reached out to some of my buddies and now I'm in a cool band lol. I also host open mic nights at the Stamp Bar every thursday night, come jam with me!     
+            <p>Time to shred!
             <br />
             <strong> Founder of SadBod </strong>
             </p>

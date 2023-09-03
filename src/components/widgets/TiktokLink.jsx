@@ -1,10 +1,12 @@
 import React from 'react';
 
+import TtButton from '/images/buttons/tiktok.png';
+
 const TiktokLink = ( {tiktokLink} ) => {
-  const imageUrl = './images/buttons/tiktok.png';
+
     return (
     <a href={tiktokLink} target="_blank" rel="noopener noreferrer">
-      <img src={imageUrl} alt="Tiktok Page" />
+      <img src={TtButton} alt="Tiktok Page" />
     </a>
   );
 }

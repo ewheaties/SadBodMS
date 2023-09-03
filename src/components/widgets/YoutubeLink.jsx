@@ -1,11 +1,12 @@
 import React from 'react';
 
+import YtButton from '/images/buttons/youtube.png';
+
 const YoutubeLink = ({youtubeLink}) => {
-  const imageUrl = './images/buttons/youtube.png'; 
- 
+
   return (
     <a href={youtubeLink} target="_blank" rel="noopener noreferrer">
-      <img src={imageUrl} alt="YouTube Page" />
+      <img src={YtButton} alt="YouTube Page" />
     </a>
   );
 }

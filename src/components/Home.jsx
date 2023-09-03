@@ -9,6 +9,11 @@ import Jeremy from '/images/friend-pics/jeremy.jpeg';
 import Cameron from '/images/friend-pics/cameron.jpeg';
 import MainProfile from '/images/bandcover.jpeg';
 
+import SendMessage from '/images/home-buttons/sendMailIcon.gif';
+import ForwardToFriend from '/images/home-buttons/forwardMailIcon.gif';
+import AddToFriends from '/images/home-buttons/addFriendIcon.gif';
+import InstantMessage from '/images/home-buttons/messagefriend.gif';
+
   function Home() {
     return (
 <div class="home">
@@ -54,18 +59,18 @@ import MainProfile from '/images/bandcover.jpeg';
 
         <div className="contact-images">
           <a href="mailto:sadbodband@gmail.com">
-            <img src="pictures/sendMailIcon.gif" alt="Send Message" />
+            <img src={SendMessage} alt="Send Message" />
           </a>
           <a href="mailto:friend@example.com?subject=Check%20out%20this%20awesome%20emo%20cover%20band&body=Hey%20there,%0D%0A%0D%0ACheck%20out%20this%20awesome%20emo%20cover%20band%20I%20found,%0D%0Aright%20here%20in%20Vero%20Beach,%20FL!%0D%0A%0D%0A(https://sadbod.com)%0D%0A%0D%0AKeep%20it%20emo%20:)">
-            <img src="pictures/forwardMailIcon.gif" alt="Forward to Friend" />
+            <img src={ForwardToFriend} alt="Forward to Friend" />
           </a>
           <a href="https://www.facebook.com/sadbodband">
-            <img src="pictures/addFriendIcon.gif" alt="Add to Friends" />
+            <img src={AddToFriends} alt="Add to Friends" />
           </a>
           {/*  <img src="pictures/addFavoritesIcon.gif" alt="Add to Favorites" /> */}
             
           <a href="https://www.facebook.com/messages/t/sadbodband">
-            <img src="pictures/messagefriend.gif" alt="Instant Message" />
+            <img src={InstantMessage} alt="Instant Message" />
           </a>
           {/* <Link to="/NotFound">
             <img src="pictures/blockUser.gif" alt="Block User" />
