@@ -69,7 +69,7 @@ import InstagramLink from '../widgets/InstagramLink';
             </header>
 
             <h3>About me:</h3>
-            <p>666 party with the devil bitch 
+            <p>I heart my girlfriend 
             <br />
             <strong> Founding member of SadBod </strong>
             </p>

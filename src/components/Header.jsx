@@ -68,10 +68,10 @@ import Smiley from '/images/smiley.png';
               <li>
                 <Link to="/Merch">Merch</Link>
               </li>
-              <li>
+             {/*  <li>
                 <Link to="/Events">Events</Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="/Contact">Contact</Link>
               </li> */}
             </ul>       
