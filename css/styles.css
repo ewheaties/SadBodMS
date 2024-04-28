@@ -488,7 +488,7 @@ html {
     background-color: #64a4f2;
     color: #000000;
     /*padding: 3px;*/
-    padding: 1%;
+    /*padding: 1%;*/
     font-weight: bold;
     /* font-size: 12pt; */
     font-size: calc(1.5vw);
@@ -646,10 +646,10 @@ html {
     font-size: calc(1.75vw);
   }
 
-  .blurbs {
+ /* .blurbs {
     margin-top: 4%;
  }
-
+ */
  .strong-emo {
    font-family: 'logofont'; 
    font-size: calc(1vh + 22px);

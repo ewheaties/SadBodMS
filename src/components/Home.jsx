@@ -14,6 +14,8 @@ import ForwardToFriend from '/images/home-buttons/forwardMailIcon.gif';
 import AddToFriends from '/images/home-buttons/addFriendIcon.gif';
 import InstantMessage from '/images/home-buttons/messagefriend.gif';
 
+import LatestFlyer from '/images/events-images/4_6_24flyer.jpeg';
+
   function Home() {
     return (
 <div class="home">
@@ -155,17 +157,22 @@ import InstantMessage from '/images/home-buttons/messagefriend.gif';
         </header>
       </section>
 
+      <div class="image-gallery">
+          <img class="gallery-images" src={LatestFlyer} alt="SadBod" />
+      </div>
+
+    {/*
       <section className="blog">
-        <p><b>SadBod's Latest Event</b> [<a href="#">Subscribe{/* to this Blog */}</a>]</p>
+        <p><b>SadBod's Latest Event</b> [<a href="#">Subscribe</a>]</p>
         <p>Ardade Bar Stuart 7/31 (<a href="#">view more</a>) </p>
         <p>Pockets Vero Beach 7/10 (<a href="#">view more</a>) </p>
-    {/* <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
+     <p>In Stores Today - BandSpace Records Vol. 1 ! (<a href="#">view more</a>) </p>
         <p>BandSpace Records - get more photos for your profile! (<a href="#">view more</a>) </p>
         <p>October 29th - BandSpace 2-Year Anniversary Concert! (<a href="#">view more</a>) </p>
-        <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p> */}
+        <p>NIN, QOTSA, Acoustic and Punk Tours (!) (<a href="#">view more</a>)</p> 
         <p>[<a href="#">View All Blog Entries</a>]</p> 
       </section>
-
+    */}
       <section className="blurbs">
         <header className="main-section-header">
           <h2 className="main-section-h2">SadBod's Blurbs</h2>
