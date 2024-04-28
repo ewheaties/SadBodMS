@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://sadbod.com",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "src/index.js",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist -b deploy"
   },
   "keywords": [],
   "author": "",
