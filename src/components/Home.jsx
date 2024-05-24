@@ -14,7 +14,7 @@ import ForwardToFriend from '/images/home-buttons/forwardMailIcon.gif';
 import AddToFriends from '/images/home-buttons/addFriendIcon.gif';
 import InstantMessage from '/images/home-buttons/messagefriend.gif';
 
-import LatestFlyer from '/images/events-images/4_6_24flyer.jpeg';
+import LatestFlyer from '/images/events-images/5_19_24flyer.jpeg';
 
   function Home() {
     return (
